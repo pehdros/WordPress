@@ -1,8 +1,8 @@
 // MY THEME COLORS
-$green:   #76ba99 ;
-$yellow:  #876445 ;
-$teal:    #CA955C ;
-$orange:  #EDDFB3 ;
+$green:   #454545;
+$orange:  #FF6000;
+$teal:    #FFA559;
+$yellow:  #FFE6C7;
 
 
 // WHITE AND GRAY COLORS
@@ -19,9 +19,9 @@ $gray-900: #212529 ;
 $black:    #000 ;
 
 $primary:       $green;
-$secondary:     $yellow;
-$success:       $orange;
-$info:          $teal;
+$secondary:     $orange;
+$success:       $teal;
+$info:          $yellow; 
 
 // IMPORT BOOTSTRAP
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
