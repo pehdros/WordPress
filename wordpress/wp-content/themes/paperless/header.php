@@ -10,7 +10,7 @@
 
 <body <?php body_class(); ?>>
 
-    <section class="bg-success">
+    <section class="bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-xl-11 col-sm-9 col-6">
@@ -24,7 +24,7 @@
         </div>
     </section>
     <header>
-        <nav class="navbar navbar-expand-md bg-primary">
+        <nav class="navbar navbar-expand-md bg-success">
             <div class="container">
                 <a class="" href="#">
                     <?php the_custom_logo();?>
