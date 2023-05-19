@@ -1,9 +1,9 @@
 <footer class="">
 
-    <section class="bg-primary">
+    <section class="bg-success">
         <nav class="navbar navbar-expand-md ">
             <div class="container">
-                <span class="text-white"> <?php the_custom_logo(); ?> </span>
+                <span class="text-primary"> <?php the_custom_logo(); ?> </span>
 
                 <div class="" id="main-menu">
                     <?php
