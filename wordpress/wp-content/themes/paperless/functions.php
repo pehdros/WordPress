@@ -134,7 +134,7 @@ function registrando_suportes()
     /*------------ TAG TITLE ----------------- */
     add_theme_support('title-tag');
     /*------------ LOGOTIPO --------------- */
-    add_theme_support('custom-logo', ['height' => 60, 'width' => 220]);
+    add_theme_support('custom-logo', ['height' => 50, 'width' => 200]);
 }
 
 add_action('after_setup_theme', 'registrando_suportes', 0);
@@ -149,6 +149,18 @@ function registrando_sidebars()
             'name' => 'Categorias',
             'id' => 'categorias',
             'description' => 'Área de categorias para Blog',
+            'before_widget' => '<div class="">',
+            'after_widget' => '</div>',
+            'before_title' => '<h2 class="">',
+            'after_title' => '</h2>'
+        )
+    );
+    // SIDEBAR LATERAL - GENERAL TEMPLATE
+    register_sidebar(
+        array(
+            'name' => 'Sidebar Direita',
+            'id' => 'sidebar-direita',
+            'description' => 'Área de categorias para General Template',
             'before_widget' => '<div class="">',
             'after_widget' => '</div>',
             'before_title' => '<h2 class="">',
