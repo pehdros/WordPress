@@ -9,24 +9,24 @@
         "color": {
             "palette": [
                 {
-                    "slug": "estetica-green",
-                    "color": "#76BA99",
-                    "name": "Green"
+                    "slug": "textos",
+                    "color": "#454545",
+                    "name": "gray"
                 },
                 {
-                    "slug": "estetica-dark-brown",
-                    "color": "#876445",
-                    "name": "DarkBrown"
+                    "slug": "primary-orange",
+                    "color": "#FF6000",
+                    "name": "Orange"
                 },
                 {
-                    "slug": "estetica-light-brown",
-                    "color": "#CA955C",
-                    "name": "LightBrown"
+                    "slug": "secondary-orange",
+                    "color": "#FFA559",
+                    "name": "SecondaryOrange"
                 },
                 {
-                    "slug": "estetica-skin-color",
-                    "color": "#EDDFB3",
-                    "name": "SkinColor"
+                    "slug": "light-orange",
+                    "color": "#FFE6C7",
+                    "name": "LightOrange"
                 }
             ]
         },
