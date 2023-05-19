@@ -1,0 +1,39 @@
+@use 'custom';
+
+.menu div ul li {
+    display: inline;
+
+    a {
+        padding: 0 1rem;
+        text-decoration: none;
+    }
+}
+
+.menu a {
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+
+.dropdown-menu {
+    background: #F3DEBA;
+}
+
+.categorias div ul li {
+    display: inline;
+
+    a {
+        
+        text-decoration: none;
+        background-color: #76BA99;
+        border-radius: 20px;
+        padding: 3px 10px 3px 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        color: white;
+    }
+}
+
+.menu-footer a {
+    color: white;
+}

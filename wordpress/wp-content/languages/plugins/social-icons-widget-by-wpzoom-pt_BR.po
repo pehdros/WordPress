@@ -1,0 +1,469 @@
+# Translation of Plugins - Social Icons Widget &amp; Block by WPZOOM - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Social Icons Widget &amp; Block by WPZOOM - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-12 17:47:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Social Icons Widget &amp; Block by WPZOOM - Stable (latest release)\n"
+
+#: social-icons-widget-by-wpzoom.php:409
+msgid "You do not have the necessary permission to perform this action."
+msgstr "Você não tem a permissão necessária para executar esta ação."
+
+#: social-icons-widget-by-wpzoom.php:405
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Ação falhou. Atualize a página e tente novamente."
+
+#: social-icons-widget-by-wpzoom.php:316
+msgid "Get Social Icons Widget PRO &rarr;"
+msgstr "Obtenha Social Icons Widget PRO &rarr;"
+
+#. translators: %s The pro version features
+#: social-icons-widget-by-wpzoom.php:312
+msgid "SVG Icons Uploader, Loading Icons in SVG format, and many other improvements to boost your PageSpeed score!"
+msgstr "Carregador de ícones SVG, carregue ícones no formato SVG e muitas outras melhorias para aumentar sua pontuação no PageSpeed!"
+
+#. translators: %s The pro version features
+#: social-icons-widget-by-wpzoom.php:312
+msgid "Big News! We've released a new PRO version with unique features such as %s"
+msgstr "Grandes novidades! Lançamos uma nova versão PRO com recursos exclusivos, como %s"
+
+#. translators: %s The heading title
+#: social-icons-widget-by-wpzoom.php:307
+msgid "🤩&nbsp; Thank you for using Social Icons Widget by WPZOOM!"
+msgstr "🤩&nbsp; Obrigado por utilizar Social Icons Widget por WPZOOM!"
+
+#: social-icons-widget-by-wpzoom.php:297
+msgid "Dismiss this notice."
+msgstr "Dispensar este aviso."
+
+#: social-icons-widget-by-wpzoom.php:274
+msgid "Documentation"
+msgstr "Documentação"
+
+#: social-icons-widget-by-wpzoom.php:274
+msgid "View Documentation"
+msgstr "Ver documentação"
+
+#: social-icons-widget-by-wpzoom.php:244
+msgid "Go Pro"
+msgstr "Tornar-se Pro"
+
+#: social-icons-widget-by-wpzoom.php:240
+msgid "Settings"
+msgstr "Configurações"
+
+#: social-icons-widget-by-wpzoom.php:190
+msgid "Font Awesome Solid"
+msgstr "Font Awesome Solid"
+
+#: social-icons-widget-by-wpzoom.php:186
+msgid "Font Awesome Regular"
+msgstr "Font Awesome Regular"
+
+#: social-icons-widget-by-wpzoom.php:182
+msgid "Font Awesome Brands"
+msgstr "Font Awesome Brands"
+
+#: social-icons-widget-by-wpzoom.php:175
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: includes/zoom-helper.php:164
+msgid "Rate Social Icons Widget by WPZOOM"
+msgstr "Classifique Social Icons Widget por WPZOOM"
+
+#: includes/zoom-helper.php:157
+msgid "Remind Me later!"
+msgstr "Lembre-me mais tarde!"
+
+#: includes/zoom-helper.php:156
+msgid "Rate Now"
+msgstr "Avalie agora"
+
+#: includes/zoom-helper.php:155
+msgid "Thanks for your support!"
+msgstr "Obrigado pelo seu apoio!"
+
+#: includes/zoom-helper.php:154
+msgid "Would you mind taking a moment to rate it! It won't take more than two minutes."
+msgstr "Você se importaria de tomar um momento para avaliar! Não vai demorar mais de dois minutos."
+
+#: includes/zoom-helper.php:153
+msgid "Thank you for using"
+msgstr "Obrigado por usar"
+
+#: includes/zoom-helper.php:64
+msgid "I already did this"
+msgstr "Eu já fiz isso"
+
+#: includes/classes/class-zoom-social-icons-widget.php:919
+msgid "Follow us"
+msgstr "Siga-nos"
+
+#: includes/classes/class-zoom-social-icons-widget.php:903
+msgid "Note that icons above is not how they will look on front-end. This is just for reference."
+msgstr "Observe que os ícones acima não são como eles ficarão na interface. Isso é apenas para referência."
+
+#: includes/classes/class-zoom-social-icons-widget.php:899
+msgid "To add an icon with an email address, use the <strong><em>mailto:mail@example.com</em></strong> format."
+msgstr "Para utilizar um ícone com email,  coloque no formato <strong><em>mailto:mail@example.com</em></strong>."
+
+#: includes/classes/class-zoom-social-icons-widget.php:895
+msgid "Add more"
+msgstr "Adicione mais"
+
+#: includes/classes/class-zoom-social-icons-widget.php:884
+msgid "This is used to provide a description of this icon to screen reader users (for accessibility purposes)."
+msgstr "Isso é usado para fornecer uma descrição deste ícone para usuários de leitores de tela (para fins de acessibilidade)."
+
+#: includes/classes/class-zoom-social-icons-widget.php:878
+msgid "description"
+msgstr "descrição"
+
+#: includes/classes/class-zoom-social-icons-widget.php:863
+#: block/dist/wpzoom-social-icons.js:1
+msgid "Label"
+msgstr "Rótulo"
+
+#: includes/classes/class-zoom-social-icons-widget.php:862
+msgid "Start typing the URL..."
+msgstr "Comece a digitar o URL..."
+
+#: includes/classes/class-zoom-social-icons-widget.php:787
+msgid "Icons:"
+msgstr "Ícones:"
+
+#: includes/classes/class-zoom-social-icons-widget.php:782
+#: block/dist/wpzoom-social-icons.js:1
+msgid "Set hover color for all icons"
+msgstr "Definir cor de foco para todos os ícones"
+
+#: includes/classes/class-zoom-social-icons-widget.php:776
+#: block/dist/wpzoom-social-icons.js:1
+msgid "Set color for all icons"
+msgstr "Definir a cor para todos os ícones"
+
+#: includes/classes/class-zoom-social-icons-widget.php:770
+msgid "Icon Size (pixels):"
+msgstr "Tamanho do ícone (pixels):"
+
+#: includes/classes/class-zoom-social-icons-widget.php:764
+msgid "Icon Padding (pixels):"
+msgstr "Espaçamento do Ícone (pixels):"
+
+#: includes/classes/class-zoom-social-icons-widget.php:760
+msgid "This option has no effect if <i>Color Icon / No Background</i> icon style is selected."
+msgstr "Esta opção não tem efeito se <i>Ícone Colorido / Sem fundo </i> estiver selecionado."
+
+#: includes/classes/class-zoom-social-icons-widget.php:755
+msgid "Square"
+msgstr "Quadrado"
+
+#: includes/classes/class-zoom-social-icons-widget.php:754
+msgid "Rounded Corners"
+msgstr "Cantos arredondados"
+
+#: includes/classes/class-zoom-social-icons-widget.php:753
+msgid "Round"
+msgstr "Redondo"
+
+#: includes/classes/class-zoom-social-icons-widget.php:751
+msgid "Icon Background Style:"
+msgstr "Estilo de fundo do ícone:"
+
+#: includes/classes/class-zoom-social-icons-widget.php:746
+#: block/dist/wpzoom-social-icons.js:3
+msgid "Color Icon / No Background"
+msgstr "Ícone colorido / sem fundo"
+
+#: includes/classes/class-zoom-social-icons-widget.php:745
+msgid "Color Background / White Icon"
+msgstr "Fundo colorido / ícone branco"
+
+#: includes/classes/class-zoom-social-icons-widget.php:742
+msgid "Icon Style:"
+msgstr "Estilo do ícone:"
+
+#: includes/classes/class-zoom-social-icons-widget.php:737
+msgid "Align Right"
+msgstr "Alinhar à direita"
+
+#: includes/classes/class-zoom-social-icons-widget.php:736
+msgid "Align Center"
+msgstr "Centralizar"
+
+#: includes/classes/class-zoom-social-icons-widget.php:735
+msgid "Align Left"
+msgstr "Alinhar à esquerda"
+
+#: includes/classes/class-zoom-social-icons-widget.php:734
+msgid "None"
+msgstr "Nenhum"
+
+#: includes/classes/class-zoom-social-icons-widget.php:731
+#: block/dist/wpzoom-social-icons.js:1
+msgid "Icons Alignment:"
+msgstr "Alinhamento do ícone:"
+
+#: includes/classes/class-zoom-social-icons-widget.php:727
+msgid "Recommended if links or icons open in a new tab"
+msgstr "Recomendado se links ou ícones abrirem em uma nova guia"
+
+#: includes/classes/class-zoom-social-icons-widget.php:709
+#: includes/classes/class-zoom-social-icons-widget.php:714
+#: includes/classes/class-zoom-social-icons-widget.php:719
+#: includes/classes/class-zoom-social-icons-widget.php:723
+msgid "Add %s to links"
+msgstr "Adicionar %s aos links"
+
+#: includes/classes/class-zoom-social-icons-widget.php:704
+msgid "Open links in new tab? "
+msgstr "Abrir link em uma nova aba? "
+
+#: includes/classes/class-zoom-social-icons-widget.php:699
+msgid "Show icon labels? "
+msgstr "Mostrar rótulos de ícone? "
+
+#: includes/classes/class-zoom-social-icons-widget.php:694
+msgid "You can add here a text above the icons. Basic HTML allowed."
+msgstr "Você pode adicionar aqui um texto acima dos ícones. HTML básico permitido."
+
+#: includes/classes/class-zoom-social-icons-widget.php:690
+msgid "Text above icons:"
+msgstr "Texto acima dos ícones:"
+
+#: includes/classes/class-zoom-social-icons-widget.php:685
+msgid "Title:"
+msgstr "Título:"
+
+#: includes/classes/class-zoom-social-icons-widget.php:364
+#: block/dist/wpzoom-social-icons.js:1
+msgid "Save"
+msgstr "Salvar"
+
+#: includes/classes/class-zoom-social-icons-widget.php:327
+#: block/dist/wpzoom-social-icons.js:1
+msgid "Select Icon Kit"
+msgstr "Selecionar kit de ícones"
+
+#: includes/classes/class-zoom-social-icons-widget.php:318
+msgid "Choose hover color"
+msgstr "Escolha a cor do foco"
+
+#: includes/classes/class-zoom-social-icons-widget.php:309
+msgid "Choose icon color"
+msgstr "Escolha a cor do ícone"
+
+#: includes/classes/class-zoom-social-icons-widget.php:299
+#: block/dist/wpzoom-social-icons.js:1
+msgid "Select Icon"
+msgstr "Selecionar ícone"
+
+#: includes/classes/class-zoom-social-icons-widget.php:293
+msgid "Close media panel"
+msgstr "Fechar o painel de mídia"
+
+#: includes/classes/class-zoom-social-icons-widget.php:178
+msgid "Current Color"
+msgstr "Cor atual"
+
+#: includes/classes/class-zoom-social-icons-widget.php:177
+msgid "Select Color"
+msgstr "Selecionar cor"
+
+#: includes/classes/class-zoom-social-icons-widget.php:176
+msgid "Default"
+msgstr "Padrão"
+
+#: includes/classes/class-zoom-social-icons-widget.php:175
+msgid "Clear"
+msgstr "Limpar"
+
+#: includes/classes/class-zoom-social-icons-widget.php:87
+msgid "Sortable widget that supports more than 80+ social networks"
+msgstr "Widget que suporta mais de 80 redes sociais"
+
+#: includes/classes/class-zoom-social-icons-widget.php:84
+msgid "Social Icons by WPZOOM"
+msgstr "Social Icons por WPZOOM"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:647
+#: includes/classes/class-wpzoom-social-icons-settings.php:663
+#: includes/classes/class-wpzoom-social-icons-settings.php:679
+#: includes/classes/class-wpzoom-social-icons-settings.php:695
+#: includes/classes/class-wpzoom-social-icons-settings.php:711
+msgid "Remove"
+msgstr "Remover"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:631
+msgid "Add icon to set"
+msgstr "Adicionar ícone ao conjunto"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:625
+msgid "Remove Icon"
+msgstr "Remover ícone"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:621
+msgid "Upload SVG icon"
+msgstr "Enviar ícone SVG"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:620
+#: includes/classes/class-wpzoom-social-icons-settings.php:621
+msgid "Upload an SVG icon"
+msgstr "Envie um ícone SVG"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:618
+msgid "Upload your icons here and create a new Custom Icons set"
+msgstr "Carregue seus ícones aqui e crie um novo conjunto de ícones personalizados"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:609
+msgid "Get Social Icons Widget PRO"
+msgstr "Obtenha Social Icons Widget PRO"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:594
+msgid "Sync Icon sets with Block and Widget Settings from popup."
+msgstr "Sincronize conjuntos de ícones com as configurações de bloqueio e widget do popup."
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:592
+msgid "Enable sync"
+msgstr "Ativar sincronização"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:580
+msgid "Main icon set"
+msgstr "Conjunto de ícones principais"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:540
+msgid "Font Awesome 5 is loaded only in the Social Icons Block."
+msgstr "Font Awesome 5 é carregado apenas no Social Icons Block."
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:526
+msgid "Font Awesome 3 is loaded only in the Social Icons Widget"
+msgstr "Font Awesome 3 é carregado apenas no Social Icons Widget"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:511
+#: includes/classes/class-wpzoom-social-icons-settings.php:524
+#: includes/classes/class-wpzoom-social-icons-settings.php:538
+#: includes/classes/class-wpzoom-social-icons-settings.php:552
+#: includes/classes/class-wpzoom-social-icons-settings.php:565
+#: includes/classes/class-wpzoom-social-icons-settings.php:578
+msgid "Enable this font"
+msgstr "Ativar esta fonte"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:499
+msgid "Preload web fonts using rel=\"preload\" to remove any flash of unstyled text and improve the PageSpeed score."
+msgstr "Pré-carregue fontes da web usando rel=\"preload\" para remover qualquer flash de texto sem estilo e melhorar a pontuação do PageSpeed."
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:497
+msgid "Enable"
+msgstr "Ativar"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:484
+msgid "Social Icons Block module functionality, by default enabled."
+msgstr "Social Icons Block funcionalidade do módulo, habilitada por padrão."
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:469
+msgid "Social Icons Widget module functionality, by default enabled."
+msgstr "Social Icons Widget funcionalidade do módulo, por padrão ativado"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:467
+#: includes/classes/class-wpzoom-social-icons-settings.php:482
+msgid "Disable"
+msgstr "Desativar"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:401
+msgid "Sync Icon Sets"
+msgstr "Sincronizar conjunto de ícones"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:393
+#: social-icons-widget-by-wpzoom.php:156 block/dist/wpzoom-social-icons.js:3
+msgid "Socicons"
+msgstr "Socicons"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:385
+#: social-icons-widget-by-wpzoom.php:160 block/dist/wpzoom-social-icons.js:3
+msgid "Dashicons"
+msgstr "Dashicons"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:377
+#: social-icons-widget-by-wpzoom.php:164
+msgid "Genericons"
+msgstr "Genericons"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:369
+msgid "Font Awesome 5"
+msgstr "Font Awesome 5"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:361
+msgid "Font Awesome 3"
+msgstr "Font Awesome 3"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:353
+#: social-icons-widget-by-wpzoom.php:168
+msgid "Academicons"
+msgstr "Academicons"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:335
+msgid "Preload Fonts"
+msgstr "Pré-carregar fontes"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:300
+#: block/dist/wpzoom-social-icons.js:3
+msgid "Social Icons Block"
+msgstr "Social Icons Block"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:174
+#: includes/classes/class-wpzoom-social-icons-settings.php:616
+msgid "Upload Icons"
+msgstr "Enviar ícone"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:170
+msgid "Misc."
+msgstr "Diversos"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:167
+msgid "Optimization"
+msgstr "Otimização"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:163
+msgid "Icon Sets"
+msgstr "Conjunto de ícones"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:127
+#: includes/classes/class-wpzoom-social-icons-settings.php:292
+msgid "Social Icons Widget"
+msgstr "Social Icons Widget"
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:126
+msgid "Social Icons Widget By WPZOOM Settings Page"
+msgstr "Social Icons Widget por WPZOOM página de configuração"
+
+#: block/src/init.php:114
+msgid "WPZOOM - Blocks"
+msgstr "WPZOOM - Blocks"
+
+#. Author URI of the plugin
+msgid "https://www.wpzoom.com/"
+msgstr "https://www.wpzoom.com/"
+
+#. Author of the plugin
+msgid "WPZOOM"
+msgstr "WPZOOM"
+
+#. Description of the plugin
+msgid "Social Icons Widget & Block to display links to social media networks websites. Supports most of the known social networks and includes more than 400 icons. Sort icons by Drag & Drop and change their color easily."
+msgstr "Social Icons Widget & Block para exibir links para sites de redes de mídia social. Suporta a maioria das redes sociais conhecidas e inclui mais de 400 ícones. Escolha os ícones arrastando & soltando, e altere sua cor facilmente."
+
+#. Plugin URI of the plugin
+msgid "https://www.wpzoom.com/plugins/social-widget/"
+msgstr "https://www.wpzoom.com/plugins/social-widget/"
+
+#. Plugin Name of the plugin
+#: includes/classes/class-wpzoom-social-icons-settings.php:157
+msgid "Social Icons Widget & Block by WPZOOM"
+msgstr "Social Icons Widget & Block por WPZOOM"
