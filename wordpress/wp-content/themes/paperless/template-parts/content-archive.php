@@ -4,7 +4,7 @@
         <div class="card-body">
             <h3 class="card-header text-center"><?php the_title(); ?></h3>
             <p class="mt-3 opacity-50"><?php echo get_the_date(); ?></p>
-            <p><?php the_excerpt(); ?></p>
+            <p><?php echo get_the_excerpt(); ?></p>
         </div>
     </article>
 </div>

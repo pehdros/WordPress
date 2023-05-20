@@ -19,18 +19,18 @@
     background: #F3DEBA;
 }
 
-.categorias div ul li {
+.categorias  ul li {
     display: inline;
 
     a {
-        
         text-decoration: none;
-        background-color: #76BA99;
-        border-radius: 20px;
-        padding: 3px 10px 3px 10px;
-        margin-right: 10px;
-        margin-top: 10px;
-        color: white;
+        background-color: #FFA559;
+        border-radius: 8px;
+        padding: 6px 10px 6px 10px;
+        margin-right: 1rem;
+        color: #454545;
+        font-size: 18px;
+        font-weight: 600;
     }
 }
 
