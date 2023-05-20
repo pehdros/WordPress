@@ -1,19 +1,17 @@
 <?php get_header(); ?>
 
+<!-- Sidebar categorias -->
+<div class="categorias">
+    <?php
+    if (is_active_sidebar('categorias')) {
+        dynamic_sidebar('categorias');
+    }
+    ?>
+</div>
+
 
 <!-- BLOG -->
 <div class="container">
-    <div><?php get_search_form(); ?></div>
-    <div class="">
-        <p>Categorias:</p>
-        <div class="categorias">
-            <?php
-            if (is_active_sidebar('categorias')) {
-                dynamic_sidebar('categorias');
-            }
-            ?>
-        </div>
-    </div>
     <div class="row">
         <?php
         if (have_posts()) :
