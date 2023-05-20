@@ -32,6 +32,7 @@
         <div class="row">
             <div class="col-md-4">
                 <?php
+                // Exibe uma categoria de post nesta página
                 $featured = new WP_Query('post_type=post&posts_per_page=1&cat=28');
                 if ($featured->have_posts()) :
                     while ($featured->have_posts()) : $featured->the_post();
@@ -49,6 +50,7 @@
             </div>
             <div class="col-md-8">
                 <?php
+                // Exibe duas categorias de post nesta página
                 $args = [
                     'post_type' => 'post',
                     'posts_per_page' => 2,
