@@ -4,7 +4,7 @@
 
     <?php
 
-    get_search_form();
+    
 
     while (have_posts()) : the_post();
 

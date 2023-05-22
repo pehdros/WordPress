@@ -96,8 +96,8 @@ class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
         $attributes .= !empty($item->xfn) ? ' rel="' . esc_attr($item->xfn) . '"' : '';
         $attributes .= !empty($item->url) ? ' href="' . esc_attr($item->url) . '"' : '';
 
-        $active_class = ($item->current || $item->current_item_ancestor || in_array("current_page_parent", $item->classes, true) || in_array("current-post-ancestor", $item->classes, true)) ? 'active' : '';
-        $nav_link_class = ($depth > 0) ? 'dropdown-item ' : 'nav-link ';
+        $active_class = ($item->current || $item->current_item_ancestor || in_array("current_page_parent", $item->classes, true) || in_array("current-post-ancestor", $item->classes, true)) ? '' : '';
+        $nav_link_class = ($depth > 0) ? 'dropdown-item' : 'nav-link ';
         $attributes .= ($args->walker->has_children) ? ' class="' . $nav_link_class . $active_class . ' dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"' : ' class="' . $nav_link_class . $active_class . '"';
 
         $item_output = $args->before;
@@ -134,7 +134,7 @@ function registrando_suportes()
     /*------------ TAG TITLE ----------------- */
     add_theme_support('title-tag');
     /*------------ LOGOTIPO --------------- */
-    add_theme_support('custom-logo', ['height' => 50, 'width' => 200]);
+    add_theme_support('custom-logo', ['height' => 60, 'width' => 220]);
 }
 
 add_action('after_setup_theme', 'registrando_suportes', 0);
@@ -143,17 +143,26 @@ add_action('after_setup_theme', 'registrando_suportes', 0);
 add_action('widgets_init', 'registrando_sidebars');
 function registrando_sidebars()
 {
-    // CATEGORIAS
+    // SIDEBAR TOP - HEADER
     register_sidebar(
-        array(
-            'name' => 'Categorias',
-            'id' => 'categorias',
-            'description' => 'Área de categorias para Blog',
-            'before_widget' => '<div class="container my-5">',
+        [
+            'name' => 'Top Bar',
+            'id' => 'topbar',
+            'description' => 'Área de Ícones e pesquisa',
+            'before_widget' => '<div class="container py-1">',
             'after_widget' => '</div>',
-            'before_title' => '<h2 class="">',
-            'after_title' => '</h2>'
-        )
+            
+        ]
+    );
+    // SIDEBAR PROMOÇÕES - GENERAL TEMPLATE
+    register_sidebar(
+        [
+            'name' => 'Promoções',
+            'id' => 'promocao',
+            'description' => 'Área de Promoções',
+            'before_widget' => '<div class="">',
+            'after_widget' => '</div>',
+        ]
     );
     // SIDEBAR LATERAL - GENERAL TEMPLATE
     register_sidebar(
@@ -167,41 +176,17 @@ function registrando_sidebars()
             'after_title' => '</h2>'
         )
     );
-    
-    // ÍCONES SOCIAIS
+    // SIDEBAR BLOG - CATEGORIAS
     register_sidebar(
-        [
-            'name' => 'Ícones Sociais',
-            'id' => 'social-icons',
-            'description' => 'Área de Ícones',
-            'before_widget' => '<div class="">',
-            'after_widget' => '</div>',
-            
-        ]
-    );
-    // HORÁRIOS
-    register_sidebar(
-        [
-            'name' => 'Horários',
-            'id' => 'atendimento',
-            'description' => 'Área de Contato',
-            'before_widget' => '<div class="">',
+        array(
+            'name' => 'Categorias',
+            'id' => 'categorias',
+            'description' => 'Área de categorias para Blog',
+            'before_widget' => '<div class="my-5">',
             'after_widget' => '</div>',
             'before_title' => '<h2 class="">',
-            'after_title' => '</h2>',
-        ]
-    );
-    // PROMOÇÕES
-    register_sidebar(
-        [
-            'name' => 'Promoções',
-            'id' => 'promocao',
-            'description' => 'Área de Promoções',
-            'before_widget' => '<div class="">',
-            'after_widget' => '</div>',
-            'before_title' => '<h2 class="">',
-            'after_title' => '</h2>',
-        ]
+            'after_title' => '</h2>'
+        )
     );
 }
 

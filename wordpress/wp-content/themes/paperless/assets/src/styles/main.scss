@@ -1,38 +1,9 @@
 @use 'custom';
 
-.menu div ul li {
-    display: inline;
-
-    a {
-        padding: 0 1rem;
-        text-decoration: none;
-    }
-}
-
-.menu a {
-    color: white;
-    font-size: 20px;
-    align-items: center;
-}
-
 .dropdown-menu {
-    background: #F3DEBA;
+    background: #FFA559;
 }
 
-.categorias  ul li {
-    display: inline;
-
-    a {
-        text-decoration: none;
-        background-color: #FFA559;
-        border-radius: 8px;
-        padding: 6px 10px 6px 10px;
-        margin-right: 1rem;
-        color: #454545;
-        font-size: 18px;
-        font-weight: 600;
-    }
-}
 
 .menu-footer a {
     color: white;
