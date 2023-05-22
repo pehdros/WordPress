@@ -10,23 +10,23 @@
             "palette": [
                 {
                     "slug": "textos",
-                    "color": "#454545",
-                    "name": "gray"
+                    "color": "#7AA874",
+                    "name": "sage"
                 },
                 {
-                    "slug": "primary-orange",
-                    "color": "#FF6000",
-                    "name": "Orange"
+                    "slug": "bege",
+                    "color": "#F7DB6A",
+                    "name": "bege"
                 },
                 {
-                    "slug": "secondary-orange",
-                    "color": "#FFA559",
-                    "name": "SecondaryOrange"
+                    "slug": "yellow",
+                    "color": "#EBB02D",
+                    "name": "yellow"
                 },
                 {
-                    "slug": "light-orange",
-                    "color": "#FFE6C7",
-                    "name": "LightOrange"
+                    "slug": "pink",
+                    "color": "#D864A9",
+                    "name": "pink"
                 }
             ]
         },
