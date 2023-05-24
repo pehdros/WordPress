@@ -1,4 +1,4 @@
-<footer class="bg-primary">
+<footer class="bg-info">
     <nav class="navbar navbar-expand-md ">
         <div class="container">
             <?php the_custom_logo(); ?>

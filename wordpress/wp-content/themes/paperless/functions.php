@@ -160,8 +160,10 @@ function registrando_sidebars()
             'name' => 'Promoções',
             'id' => 'promocao',
             'description' => 'Área de Promoções',
-            'before_widget' => '<div class="">',
+            'before_widget' => '<div class="text-primary">',
             'after_widget' => '</div>',
+            'before_title' => '<h2 class="">',
+            'after_title' => '</h2>'
         ]
     );
     // SIDEBAR LATERAL - GENERAL TEMPLATE
@@ -170,7 +172,7 @@ function registrando_sidebars()
             'name' => 'Sidebar Direita',
             'id' => 'sidebar-direita',
             'description' => 'Área de categorias para General Template',
-            'before_widget' => '<div class="">',
+            'before_widget' => '<div class="text-primary">',
             'after_widget' => '</div>',
             'before_title' => '<h2 class="">',
             'after_title' => '</h2>'
@@ -182,7 +184,7 @@ function registrando_sidebars()
             'name' => 'Categorias',
             'id' => 'categorias',
             'description' => 'Área de categorias para Blog',
-            'before_widget' => '<div class="my-5">',
+            'before_widget' => '<div class="mt-3 mb-5">',
             'after_widget' => '</div>',
             'before_title' => '<h2 class="">',
             'after_title' => '</h2>'

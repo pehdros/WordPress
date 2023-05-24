@@ -9,7 +9,7 @@ Template Name: Template Geral
 <?php get_sidebar('promocoes'); ?>
 
 <!-- O administrador poderá incluir conteúdo do post e informações em uma sidebar lateral -->
-<section class="">
+<section class="my-5">
     <div class="container">
         <div class="row">
             <div class="col-9 pe-5">
@@ -21,7 +21,7 @@ Template Name: Template Geral
                 endif;
                 ?>
             </div>
-            <div class="col-3 bg-success p-4 h-100">
+            <div class="col-3 bg-info  h-100">
                 <?php get_sidebar('lateral'); ?>
             </div>
         </div>

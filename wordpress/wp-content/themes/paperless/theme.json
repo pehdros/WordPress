@@ -10,23 +10,23 @@
             "palette": [
                 {
                     "slug": "textos",
-                    "color": "#7AA874",
+                    "color": "#61764B",
                     "name": "sage"
                 },
                 {
                     "slug": "bege",
-                    "color": "#F7DB6A",
+                    "color": "#FAD6A5",
                     "name": "bege"
                 },
                 {
-                    "slug": "yellow",
-                    "color": "#EBB02D",
-                    "name": "yellow"
+                    "slug": "sage-light",
+                    "color": "#9BA17B",
+                    "name": "sage-light"
                 },
                 {
-                    "slug": "pink",
-                    "color": "#D864A9",
-                    "name": "pink"
+                    "slug": "brown-light",
+                    "color": "#CFB997",
+                    "name": "brown-light"
                 }
             ]
         },

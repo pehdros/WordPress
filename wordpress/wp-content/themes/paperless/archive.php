@@ -2,9 +2,8 @@
 
 
 <!-- BLOG -->
+<?php get_sidebar('categorias')?>
 <div class="container">
-    <div><?php get_search_form(); ?></div>
-    <div>Categorias</div>
     <div class="row">
         <?php
 

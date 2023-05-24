@@ -12,11 +12,11 @@
 
     <header>
         <!-- Sidebar topo - social icons & search -->
-        <section class="bg-info">
+        <section class="bg-primary">
             <?php get_sidebar('topo'); ?>
         </section>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-md bg-primary">
+        <nav class="navbar navbar-expand-md bg-info">
             <div class="container">
                 <div class="">
                     <?php the_custom_logo(); ?>
