@@ -8,7 +8,16 @@
                     <p>Criado <?php echo get_the_date(); ?> por <?php the_author(); ?></p>
                 </div>
             </article>
-            <?php the_content();?>
+            <?php the_content(); ?>
+            <div class="row">
+                <div class="col-6">
+                    <?php next_post_link('&laquo; %link'); ?>
+                </div>
+                <div class="col-6 text-end">
+                    <?php previous_post_link('%link &raquo;'); ?>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
