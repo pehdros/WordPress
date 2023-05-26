@@ -33,50 +33,55 @@
         "typography": {
             "fontFamilies": [
                 {
-                    "fontFamily": "'Inter', sans-serif",
-                    "slug": "inter",
-                    "name": "Body - Inter",
+                    "fontFamily": "'Poppins', sans-serif",
+                    "slug": "poppins",
+                    "name": "Body - Poppins",
                     "fontFace": [
                         {
-                            "fontFamily": "'Inter', sans-serif",
+                            "fontFamily": "'Poppins', sans-serif",
                             "fontWeight": "300",
                             "fontStyle": "normal",
                             "fontStretch": "normal",
                             "src": [
-                                "file:./assets/fonts/inter/Inter-Light.ttf"
+                                "file:./assets/fonts/Poppins/Poppins-Light.ttf"
                             ]
                         },
                         {
-                            "fontFamily": "'Inter', sans-serif",
+                            "fontFamily": "'Poppins', sans-serif",
                             "fontWeight": "400",
                             "fontStyle": "normal",
                             "fontStretch": "normal",
                             "src": [
-                                "file:./assets/fonts/inter/Inter-Regular.ttf"
+                                "file:./assets/fonts/Poppins/Poppins-Regular.ttf"
                             ]
                         }
                     ]
                 },
                 {
-                    "fontFamily": "Stolz, Arial, sans-serif",
+                    "fontFamily": "'Stolz', Arial, sans-serif",
                     "slug": "stolzl",
                     "name": "Heading - Stolzl"
+                },
+                {
+                    "fontFamily": "'Slackside One', cursive",
+                    "slug": "slackside0ne",
+                    "name": "slackside-one"
                 }
             ],
             "fontSizes": [
                 {
                     "slug": "small",
-                    "size": "0.64rem",
+                    "size": "0.74rem",
                     "name": "Small"
                 },
                 {
                     "slug": "medium",
-                    "size": "0.8rem",
+                    "size": "1rem",
                     "name": "Medium"
                 },
                 {
                     "slug": "regular",
-                    "size": "1rem",
+                    "size": "1.4rem",
                     "name": "Regular"
                 }
             ]
@@ -124,7 +129,7 @@
             "text": "var(--wp--preset--color--paperless-black)"
         },
         "typography": {
-            "fontFamily": "var(--wp--preset--font-family--inter)",
+            "fontFamily": "var(--wp--preset--font-family--poppins)",
             "lineHeight": "1.75",
             "fontSize": "1rem"
         },
@@ -187,7 +192,7 @@
             "core/latest-posts": {
                 "spacing": {
                     "padding": {
-                        "bottom": "10px"
+                        "bottom": "5px"
                     }
                 }
             },
@@ -200,14 +205,7 @@
                     "background": "var(--wp--preset--color--paperless-black)",
                     "text": "var(--wp--preset--color--paperless-white)"
                 },
-                "spacing": {
-                    "padding": {
-                        "top": "0.7em",
-                        "right": "1,6em",
-                        "bottom": "0.7em",
-                        "left": "1.6em"
-                    }
-                },
+                
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--regular)",
                     "lineHeight": "var(--wp--custom--line-height--normal)"
