@@ -17,14 +17,10 @@
                 get_template_part('template-parts/content');
             endwhile;
         endif;
-
-        the_posts_pagination(
-            [
-                'prev_text' => 'Anterior',
-                'next_text' => 'Próximo'
-            ]
-        );
         ?>
+        <div class="my-5">
+            <?php the_posts_pagination(array('mid_size' => 2)); ?>
+        </div>
     </div>
 </div>
 

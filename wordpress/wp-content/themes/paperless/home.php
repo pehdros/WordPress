@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 <section class="py-5">
-<div class="container text-center text-primary">
-    <h2 class="">Thaís Godoy Estética e Acupuntura - BLOG</h2>
-    <p class="">Tudo o que você precisa saber sobre estética, acupuntura e nossa clínica!</p>
-</div>
+    <div class="container text-center text-primary">
+        <h2 class="">Thaís Godoy Estética e Acupuntura - BLOG</h2>
+        <p class="">Tudo o que você precisa saber sobre estética, acupuntura e nossa clínica!</p>
+    </div>
 </section>
 
 <?php get_sidebar('categorias'); ?>
@@ -19,14 +19,10 @@
 
             endwhile;
         endif;
-
-        the_posts_pagination(
-            [
-                'prev_text' => 'Anterior',
-                'next_text' => 'Próximo'
-            ]
-        );
         ?>
+    </div>
+    <div class="my-5">
+    <?php the_posts_pagination( array( 'mid_size' => 2 ) ); ?>
     </div>
 </div>
 
