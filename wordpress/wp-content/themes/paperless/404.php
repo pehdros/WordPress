@@ -1,17 +1,15 @@
 <?php get_header(); ?>
 
 <div class="container">
-    <div class="row">
-        <header>
+    <div class="row my-5 text-primary">
+        <div class="col-9 text-center">
             <h1>Página não encontrada</h1>
-            <p>Erro, a página que você procura não existe neste site!</p>
-        </header>
-        <div>
-            <p>Que tal fazer uma pesquisa?</p>
-            <?php get_search_form();?>
-            <?php 
-            the_widget('WP_Widget_Recent_Posts', ['title' => 'Ultimos Posts', 'number' => 3]);
-            ?>
+            <h4>A página que você procura não existe!</h4>
+        </div>
+        <div class="col-3">
+            <div class="bg-info h-100">
+                <?php get_sidebar('lateral'); ?>
+            </div>
         </div>
     </div>
 </div>
