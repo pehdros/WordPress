@@ -14,3 +14,19 @@ Text Domain: thaisgodoyesteticaeacupuntura
 Tags: full-site-editing, 
 */
 
+.tg-custom-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+/* Navgation */
+.main-nav .is-menu-open ul.wp-block-navigation__container {
+    padding-right: 20px;
+}
+
+.wp-block-navigation-link a:hover {
+    border-bottom: 2px solid var(--wp--preset--color--custom-tg-sage);
+}
