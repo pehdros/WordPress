@@ -17,7 +17,7 @@
         </section>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-md bg-info">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="">
                     <?php the_custom_logo(); ?>
                 </div>

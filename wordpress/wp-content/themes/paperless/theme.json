@@ -43,7 +43,7 @@
                             "fontStyle": "normal",
                             "fontStretch": "normal",
                             "src": [
-                                "file:./assets/fonts/Poppins/Poppins-Light.ttf"
+                                "file:./assets/fonts/poppins/Poppins-Light.ttf:Zone.Identifier"
                             ]
                         },
                         {
@@ -52,20 +52,19 @@
                             "fontStyle": "normal",
                             "fontStretch": "normal",
                             "src": [
-                                "file:./assets/fonts/Poppins/Poppins-Regular.ttf"
+                                "file:./assets/fonts/poppins/Poppins-Regular.ttf:Zone.Identifier"
+                            ]
+                        },
+                        {
+                            "fontFamily": "'Poppins', sans-serif",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/poppins/Poppins-Bold.tff:Zone.Identifier"
                             ]
                         }
                     ]
-                },
-                {
-                    "fontFamily": "'Stolz', Arial, sans-serif",
-                    "slug": "stolzl",
-                    "name": "Heading - Stolzl"
-                },
-                {
-                    "fontFamily": "'Slackside One', cursive",
-                    "slug": "slackside0ne",
-                    "name": "slackside-one"
                 }
             ],
             "fontSizes": [
@@ -136,7 +135,7 @@
         "elements": {
             "h1": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--stolzl)",
+                    "fontFamily": "var(--wp--preset--font-family--poppins)",
                     "fontWeight": "800",
                     "lineHeight": "var(--wp--custom--line-height--small)",
                     "fontSize": "var(--wp--custom--typography--font-size--heading-1)"
@@ -144,7 +143,7 @@
             },
             "h2": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--stolzl)",
+                    "fontFamily": "var(--wp--preset--font-family--poppins)",
                     "fontWeight": "800",
                     "lineHeight": "var(--wp--custom--line-height--small)",
                     "fontSize": "var(--wp--custom--typography--font-size--heading-2)"
@@ -152,7 +151,7 @@
             },
             "h3": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--stolzl)",
+                    "fontFamily": "var(--wp--preset--font-family--poppins)",
                     "fontWeight": "800",
                     "lineHeight": "var(--wp--custom--line-height--small)",
                     "fontSize": "var(--wp--custom--typography--font-size--heading-3)"
@@ -160,7 +159,7 @@
             },
             "h4": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--stolzl)",
+                    "fontFamily": "var(--wp--preset--font-family--poppins)",
                     "fontWeight": "800",
                     "lineHeight": "var(--wp--custom--line-height--small)",
                     "fontSize": "var(--wp--custom--typography--font-size--heading-4)"
@@ -168,7 +167,7 @@
             },
             "h5": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--stolzl)",
+                    "fontFamily": "var(--wp--preset--font-family--poppins)",
                     "fontWeight": "800",
                     "lineHeight": "var(--wp--custom--line-height--small)",
                     "fontSize": "var(--wp--custom--typography--font-size--heading-5)"
@@ -176,7 +175,7 @@
             },
             "h6": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--stolzl)",
+                    "fontFamily": "var(--wp--preset--font-family--poppins)",
                     "fontWeight": "800",
                     "lineHeight": "var(--wp--custom--line-height--small)",
                     "fontSize": "var(--wp--custom--typography--font-size--heading-6)"

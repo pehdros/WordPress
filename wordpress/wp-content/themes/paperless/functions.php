@@ -149,7 +149,7 @@ function registrando_sidebars()
             'name' => 'Top Bar',
             'id' => 'topbar',
             'description' => 'Área de Ícones e pesquisa',
-            'before_widget' => '<div class="container py-1">',
+            'before_widget' => '<div class="container-fluid py-1">',
             'after_widget' => '</div>',
             
         ]
