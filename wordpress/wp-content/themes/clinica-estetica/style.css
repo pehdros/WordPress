@@ -24,3 +24,8 @@ Tags: full-site-editing,
 .wp-block-navigation-link a:hover {
     border-bottom: 2px solid var(--wp--preset--color--custom-tg-sage);
 }
+
+.services-col {
+    overflow: hidden;
+    border-radius: 16px;
+}
