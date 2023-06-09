@@ -4,22 +4,22 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#61764b",
+					"color": "#395144",
 					"name": "TG-Sage ",
 					"slug": "custom-tg-sage"
 				},
 				{
-					"color": "#fad6a5",
+					"color": "#AA8B56",
 					"name": "TG-Bege",
 					"slug": "custom-tg-bege"
 				},
 				{
-					"color": "#9ba17b",
+					"color": "#4E6C50",
 					"name": "TG-SageLight",
 					"slug": "custom-tg-sage-light"
 				},
 				{
-					"color": "#cfb997",
+					"color": "#F0EBCE",
 					"name": "TG-BrownLight",
 					"slug": "custom-tg-brown-light"
 				},
@@ -124,7 +124,7 @@
 				{
 					"fontFace": [
 						{
-							"fontFamily": "Poppins Medium",
+							"fontFamily": "Poppins Heading",
 							"fontStyle": "normal",
 							"fontWeight": "500",
 							"src": [
@@ -132,8 +132,8 @@
 							]
 						}
 					],
-					"fontFamily": "Poppins Medium",
-					"slug": "poppins-medium"
+					"fontFamily": "Poppins Heading",
+					"slug": "poppins-heading"
 				},
 				{
 					"fontFace": [
@@ -154,7 +154,7 @@
 							]
 						}
 					],
-					"fontFamily": "Poppins",
+					"fontFamily": "Poppins Text-Link",
 					"slug": "poppins"
 				}
 			]
