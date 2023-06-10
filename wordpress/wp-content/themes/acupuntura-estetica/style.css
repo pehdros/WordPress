@@ -29,3 +29,16 @@ Tags: full-site-editing,
     overflow: hidden;
     border-radius: 16px;
 }
+
+.sidebar-category li {
+    display: inline;
+}
+
+.sidebar-category li a {
+    text-decoration: none;
+    background-color: #395144;
+    border-radius: 20px;
+    padding: 10px 14px 10px 14px;
+    color: white;
+    margin-right: 8px;
+}

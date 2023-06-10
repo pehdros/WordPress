@@ -13,5 +13,3 @@ if(!function_exists('tg_estetica')) :
 endif;
 
 add_action('wp_enqueue_scripts', 'tg_estetica');
-
-?>
