@@ -216,7 +216,7 @@ class HT_CTC_Chat_Greetings {
                         </svg>
                     </span>
                     <br>
-                    <div class="ht_ctc_chat_greetings_box_layout" style="max-height: 67vh; overflow-y:auto; <?= $box_layout_bg_color ?> box-shadow: <?= $box_shadow ?>; border-radius:8px;clear:both;">
+                    <div class="ht_ctc_chat_greetings_box_layout" style="max-height: 84vh; overflow-y:auto; <?= $box_layout_bg_color ?> box-shadow: <?= $box_shadow ?>; border-radius:8px;clear:both;">
                         <div class="ctc_greetings_template">
                             <?php include $ht_ctc_greetings['path']; ?>
                         </div>

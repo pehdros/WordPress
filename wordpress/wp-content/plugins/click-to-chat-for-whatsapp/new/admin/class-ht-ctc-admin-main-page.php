@@ -55,8 +55,10 @@ class HT_CTC_Admin_Main_Page {
                 </div>
 
                 <!-- sidebar content -->
-                <div class="col s12 m9 l7 xl4 ht-ctc-admin-sidebar sticky-sidebar">
-                    <?php include_once HT_CTC_PLUGIN_DIR .'new/admin/admin_commons/admin-sidebar-content.php'; ?>
+                <div class="col s12 m9 l7 xl4 ht-ctc-admin-sidebar sticky-sidebar ctc_scrollbar">
+                    <div class="ctc_scrollbar_2">
+                        <?php include_once HT_CTC_PLUGIN_DIR .'new/admin/admin_commons/admin-sidebar-content.php'; ?>
+                    </div>
                 </div>
                 
             </div>

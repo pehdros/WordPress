@@ -16,6 +16,11 @@
     margin-top: -0.9px !important;
 }
 
+.ctc_g_content {
+    max-height: calc(80vh - 140px);
+    overflow-y: auto;
+}
+
 /* for mobile */
 @media only screen and (max-width: 420px) {
 
@@ -35,4 +40,17 @@
     .ctc_m_full_width .ctc_g_message_box_width {
         max-width: 85% !important;
     }
+}
+
+/* above 900 */
+@media only screen and (min-width: 900px) {
+
+    .ctc_g_content::-webkit-scrollbar {
+        width: 2.8px;
+    }
+
+    .ctc_g_content::-webkit-scrollbar-thumb {
+        background: #a5a5a5;
+    }
+
 }

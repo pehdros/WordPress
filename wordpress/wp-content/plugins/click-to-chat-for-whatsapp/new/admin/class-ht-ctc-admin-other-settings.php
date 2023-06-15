@@ -304,29 +304,33 @@ class HT_CTC_Admin_Other_Settings {
                 if ( is_array($hook_v) ) {
                     $hook_v = array_filter($hook_v);
                     $hook_v = array_values($hook_v);
+                    $hook_v = array_map('esc_attr', $hook_v );
                     $count = count($hook_v);
+
+                    // hook values
+                    if ( isset( $hook_v[0] ) ) {
+                        for ($i=0; $i < $count ; $i++) {
+                            $dbrow = "ht_ctc_othersettings[hook_v][$i]";
+                            $num = $hook_v[$i];
+                            ?>
+                            <div class="additional-value row" style="margin-bottom: 15px;">
+                                <div class="col s3">
+                                    <p class="description handle">Value<?= $i+1; ?></p>
+                                </div>
+                                <div class="col s9 m6">
+                                    <p style="display: flex;">
+                                        <input name="<?= $dbrow; ?>" value="<?= $num; ?>" type="text"/>
+                                        <span style="color:lightgrey; cursor:pointer;" class="hook_remove_value dashicons dashicons-no-alt"></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <?php
+                        }
+                    }
+                    
                 }
 
-                // hook values
-                if ( isset( $hook_v[0] ) ) {
-                    for ($i=0; $i < $count ; $i++) {
-                        $dbrow = "ht_ctc_othersettings[hook_v][$i]";
-                        $num = $hook_v[$i];
-                        ?>
-                        <div class="additional-value row" style="margin-bottom: 15px;">
-                            <div class="col s3">
-                                <p class="description handle">Value<?= $i+1; ?></p>
-                            </div>
-                            <div class="col s9 m6">
-                                <p style="display: flex;">
-                                    <input name="<?= $dbrow; ?>" value="<?= $num; ?>" type="text"/>
-                                    <span style="color:lightgrey; cursor:pointer;" class="hook_remove_value dashicons dashicons-no-alt"></span>
-                                </p>
-                            </div>
-                        </div>
-                        <?php
-                    }
-                }
+                
                 
                 ?>
             </div>

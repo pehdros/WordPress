@@ -140,6 +140,7 @@
 }
 
 
+/* desktop - large screens - greater than 1200 */
 @media only screen and (min-width: 1201px) {
     .sticky-sidebar {
         position: sticky !important;
@@ -151,4 +152,38 @@
         margin-top: 12px;
         margin-left: 80px;
     }
+
+
+    .ctc_scrollbar {
+        height: 86vh;
+        overflow-y: auto;
+        visibility: hidden;
+    }
+
+    .ctc_scrollbar_2,
+    .ctc_scrollbar:hover,
+    .ctc_scrollbar:focus {
+        visibility: visible;
+    }
+
+    .ht-ctc-admin-sidebar::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    .ht-ctc-admin-sidebar::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    .ht-ctc-admin-sidebar::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+    
+    .ht-ctc-admin-sidebar::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+
+
+    
+
 }

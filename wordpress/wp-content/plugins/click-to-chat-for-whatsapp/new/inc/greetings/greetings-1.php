@@ -167,7 +167,7 @@ if ('' !== $ht_ctc_greetings['main_content']) {
     if ('yes' == $main_bg_image) {
         // if bg image is added
         ?>
-        <div class="ctc_g_content" style="<?= $main_css ?> position:relative">
+        <div class="ctc_g_content" style="<?= $main_css ?> position:relative;">
             <div class="ctc_g_content_for_bg_image">
                 <div class="ctc_g_message_box ctc_g_message_box_width" style="<?= $message_box_css ?>"><?= wpautop( $ht_ctc_greetings['main_content'] ) ?></div>
             </div>
